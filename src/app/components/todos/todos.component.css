@@ -1,0 +1,22 @@
+.todo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.delete {
+  width: auto;
+  margin: 0;
+}
+.id {
+  margin-right: 1rem;
+}
+.content {
+  margin-right: 1rem;
+}
+
+.todo.done .content {
+  text-decoration: line-through;
+}
+.todo-submit {
+  width: auto;
+}
